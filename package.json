@@ -1,0 +1,22 @@
+{  "name": "mortgagemate",
+"version": "1.0.0",
+"description": "Mortgage calculator application with multiple backend implementations",
+"scripts": {
+  "start:express": "cd backend\\ -\\ express && node server.js",
+  "start:frontend": "cd frontend && npm run dev",
+  "install:all": "npm install && cd frontend && npm install && cd ../backend\\ -\\ express && npm install"
+},
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.6",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^4.0.6"
+  }
+}

@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+
+/* Base Styles */
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+/* Main Container */
+.container {
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Calculator Box */
+.calculator-box {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  margin: 0 auto;
+}
+
+/* Input Fields */
+.input-field {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Button */
+.calculate-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.calculate-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Result Box */
+.result-box {
+  margin-top: 20px;
+  padding: 10px;
+  background: #d4edda;
+  color: #155724;
+  border-radius: 5px;
+  font-size: 1rem;
+}
